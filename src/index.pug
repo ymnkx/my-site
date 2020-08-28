@@ -1,0 +1,86 @@
+-
+  var pageTitle = "T_Y"
+  var pageDescription = ""
+  var pageOgImage = "og.png"
+  var pageUrl = "https://yamanakatomohiro.com"
+
+<!DOCTYPE html>
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= pageTitle
+    meta(name="description", content=pageDescription)
+    //ToDo: OGP
+    meta(property="og:title", content=pageTitle)
+    meta(property="og:description", content=pageDescription)
+    meta(property="og:type", content="website")
+    meta(property="og:url", content=pageUrl)
+    meta(property="og:image", content=pageOgImage)
+    link(href="https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap", rel="stylesheet")
+    link(rel="stylesheet", type="text/css", href="./assets/css/index.scss")
+    script(src="./assets/js/index.ts")
+  body
+    .container#js-container
+      .myName
+        .myName_box
+          .myName_line
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-y Y
+                .letterParts_body.-back.js-vowel-1 A
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-m M
+                .letterParts_body.-back.js-vowel-1 A
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-n N
+                .letterParts_body.-back.js-vowel-1 A
+            .letterParts.-ka
+              .letterParts_unit
+                .letterParts_body.-front#js-k K
+                .letterParts_body.-back.js-vowel-1 A
+          .myName_line
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-t T
+                .letterParts_body.-back.js-vowel-2 O
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-m2 M
+                .letterParts_body.-back.js-vowel-2 O
+            .letterParts
+              .letterParts_unit
+                .letterParts_body.-front#js-h H
+                .letterParts_body.-back.js-vowel-2 I
+            .letterParts.-ro
+              .letterParts_unit
+                .letterParts_body.-front#js-r R
+                .letterParts_body.-back.js-vowel-2 O
+        .myName_effect#js-effect
+      .dataSet
+        .dataUnit
+          .dataUnit_name Tomohiro Yamanaka
+          .dataUnit_contents
+            p.dataUnit_info Web Designer / Front-end Engineer
+            ul.dataUnit_links
+              li
+                a(href="https://twitter.com/ymnkx") Twitter
+              li
+                a(href="https://www.instagram.com/y_a_m_a_o/") Instagram
+              li
+                a(href="https://github.com/ymnkx") GitHub
+        .dataUnit
+          .dataUnit_name SiteData
+          .dataUnit_contents
+            ul.dataUnit_links
+              li
+                a(href="") GitHub
+            ul.dataUnit_links
+              li
+                a(href="https://ja.parceljs.org/") Parcel
+              li
+                a(href="https://animejs.com/") anime.js
+              li
+                a(href="https://rsms.me/inter/") Inter

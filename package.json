@@ -1,0 +1,21 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./docs/index.html",
+  "scripts": {
+    "dev": "parcel ./src/index.pug --open",
+    "build": "rm ./docs/* ; parcel build ./src/index.pug --no-source-maps --dist-dir ./docs/ --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/animejs": "^3.1.2",
+    "animejs": "^3.2.0",
+    "parcel": "^2.0.0-beta.1",
+    "parcel-plugin-ogimage": "^1.2.0",
+    "pug": "^3.0.0",
+    "sass": "^1.26.10"
+  }
+}
