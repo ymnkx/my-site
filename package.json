@@ -1,5 +1,5 @@
 {
-  "name": "parcel2_test",
+  "name": "my-site",
   "version": "1.0.0",
   "description": "",
   "main": "./docs/index.html",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/animejs": "^3.1.2",
     "animejs": "^3.2.0",
