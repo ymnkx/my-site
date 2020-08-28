@@ -2,10 +2,10 @@
   "name": "parcel2_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./docs/index.html",
   "scripts": {
     "dev": "parcel ./src/index.pug --open",
-    "build": "rm ./docs/* ; parcel build ./src/index.pug --no-source-maps --out-dir ./docs/ --public-url ./"
+    "build": "rm ./docs/* ; parcel build ./src/index.pug --no-source-maps --dist-dir ./docs/ --public-url ./"
   },
   "keywords": [],
   "author": "",
