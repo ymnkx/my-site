@@ -27,6 +27,7 @@ $breakpoints: (
 $font-size-mid: 16px;
 $font-size-small: 12px;
 $color-black: #282828;
+$color-gray-100: #404040;
 $color-white: #efefef;
 $color-key: #00ff00;
 $color-key-dark: hsl(10, 100%, 50%);
@@ -116,7 +117,7 @@ body {
   line-height: 1;
   @include font-inter-bold;
   font-size: 26vw;
-  color: $color-black;
+  color: $color-gray-100;
   @include dark-mode() {
     color: $color-white;
   }
